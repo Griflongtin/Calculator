@@ -2,9 +2,32 @@
 <html>
   <head>
     <title>Calculator</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
-    <h1>Calculator</h1>
-    <script src="js/scripts.js"></script>
+    <div Class="container">
+      <h1>Calculator</h1>
+      <form id="triangle">
+        <div class"form-group">
+          <label for="side1">1st Number Bigger Number First:</label>
+          <input type="text" id="side1" class="form-control">
+        </div>
+        <div class"form-group">
+          <label for="side2">2st Number:</label>
+          <input type="text" id="side2" class="form-control">
+        </div>
+        <div class"form-group">
+          <label for="side3">3st Number:</label>
+          <input type="text" id="side3" class="form-control">
+        </div>
+        <button type="submit" class="btn">Calculat</button>
+      </form>
+      <div id="output">
+
+      </div>
+    </div>
   </body>
 </html>
